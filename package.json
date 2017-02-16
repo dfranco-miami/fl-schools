@@ -1,0 +1,25 @@
+{
+  "name": "fl-schools",
+  "version": "1.0.0",
+  "description": "scrape fl schools, scrape inspections reports, synch services with wels, synch program-services in wels, report missing schools, synch schools inpsctions in wels",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfranco-miami/fl-schools.git"
+  },
+  "author": "Damian Franco <dfranco.miami@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfranco-miami/fl-schools/issues"
+  },
+  "homepage": "https://github.com/dfranco-miami/fl-schools#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "jsftp": "^1.5.5",
+    "mongodb": "^2.2.24",
+    "request": "^2.79.0"
+  }
+}
